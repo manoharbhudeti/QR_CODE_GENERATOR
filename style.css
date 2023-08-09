@@ -1,0 +1,203 @@
+/* For screens with a minimum width of 768px */
+@media (min-width: 768px) {
+    h1 {
+        font-family: 'Bebas Neue', sans-serif;
+        padding: 20px;
+    }
+    .heading{
+        font-family: 'Bebas Neue', sans-serif;
+        padding: 10px;
+    }
+    label {
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    
+    #forms {
+        padding: 10px;
+    }
+    
+    body {
+        text-align: center;
+        background-color: #EADBC8;
+    }
+    
+    #qrimage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .middle {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    footer {
+        font-family: 'Roboto', sans-serif;
+        padding: 20px 0;
+        text-align: center;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    .link {
+        font-weight: bold;
+        right: 10px;
+    }
+    
+    .link li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    
+    .footer-content p {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .link li a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    .link a:hover {
+        text-decoration: underline;
+    }
+    .main{
+        align-items: center;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #EADBC8;
+    }
+    
+    .clock {
+        width: 270px;
+        height: 100px;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        font-family: Arial, sans-serif;
+        font-size: 50px;
+        margin: 0 auto; 
+        background-color: #0A6EBD;
+        color: #fff;
+    }
+    
+    
+}
+
+/* For screens with a maximum width of 767px */
+@media (max-width: 767px) {
+    h1 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 24px;
+        padding: 10px;
+    }
+    
+    body {
+        text-align: center;
+        background-color: #C2DEDC;
+    }
+    
+    label {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 16px;
+    }
+    
+    #forms {
+        padding: 5px;
+    }
+    
+    footer {
+        font-family: 'Bebas Neue', sans-serif;
+        padding: 15px 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .middle {
+        margin-top: 5px;
+        font-weight: bold;
+    }
+    
+    .link li {
+        margin: 0 5px;
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    .link li a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    .footer-content p {
+        margin-bottom: 5px;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    }
+    
+    .clock {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border: 2px solid #333;
+        border-radius: 50%;
+    }
+    
+    .hour-hand, .minute-hand, .second-hand {
+        position: absolute;
+        transform-origin: bottom center;
+    }
+    
+    .hour-hand {
+        width: 4px;
+        height: 60px;
+        background-color: #333;
+        top: 50px;
+        left: 98px;
+        transform: rotate(90deg);
+    }
+    
+    .minute-hand {
+        width: 3px;
+        height: 80px;
+        background-color: #555;
+        top: 40px;
+        left: 98.5px;
+        transform: rotate(180deg);
+    }
+    
+    .second-hand {
+        width: 1px;
+        height: 90px;
+        background-color: #ff0000;
+        top: 30px;
+        left: 99px;
+        transform: rotate(270deg);
+    }
+    
+    .center {
+        width: 10px;
+        height: 10px;
+        background-color: #333;
+        border-radius: 50%;
+        position: absolute;
+        top: 95px;
+        left: 95px;
+    }
+}
